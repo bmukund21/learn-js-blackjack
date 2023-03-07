@@ -1,12 +1,19 @@
 /* Complete the CSS styling according to the provided design */
 
 body {
+    margin-top: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("images/table.jpeg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#62b2cf;
+    background-attachment: fixed;
     text-align: center;
     color: white;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-gradient{
