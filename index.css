@@ -1,0 +1,57 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/table.jpeg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.img-gradient{
+    position: relative;
+}
+.img-gradient::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+  }
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    /* box-shadow: 0 3px #c0a44f; */
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+}
+#button:hover{
+    background-color: goldenrod;
+
+}
+#button:active{
+    background-color: goldenrod;
+    /* box-shadow: 0 1px #f2d70c; */
+    transform: translateY(1px);
+    
+}
